@@ -14,7 +14,7 @@
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
   $ cd prem
-  $ python2 brute
+  $ python2 brute.py
  ```
 ##info
  sc ini support 32 bit 
