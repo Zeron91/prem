@@ -1,4 +1,4 @@
-#-------------------[ open code ]---------------------#
+#-------------------[ JANGAN DI GANTI² KONTOL ]---------------------#
 import os, time
 try:
      import rich
@@ -15,7 +15,7 @@ except (ModuleNotFoundError,ImportError):
 
 #-------------------[ MODUL IN PYTHON3 & RICH ]---------------------#
 import re, sys, json, requests, random, datetime, subprocess, platform, bs4
-from concurrent.futures import ThreadPoolExecutor as khamdihiXV
+from concurrent.futures import ThreadPoolExecutor as lukmanXV
 from bs4 import BeautifulSoup as parse
 from datetime import datetime
 
@@ -323,7 +323,7 @@ def menu():
          main = console.input('╰──▸ [bold white]Masukan domain contoh @gmail.com : ')
          for i in nama.split(','):
              for x in range(2000):
-                 tambah = random.choice([random.randint(0,60),'amin','amel','amelia','ais','ananda','agus','aji','adi','andi','andika','abas','aminah','aminatun','bagas','basuki','babas','bayu','badrul','bintang','cindi','cici','cinta','cupita','cupi','dina','diki','difa','dihi','dini','diva','devinta','deni','dila','dilah','fika','fikha','fina','fivi','fatah','fania','fatih','fatun',random.randint(1,20),'32','28','123','24','oficial','cans','ganz','tok','xd','id','gina','galih','gugun','gifah','gans','kholid','kontol','kania','khoerul','hilada','hilmi','himin','lili','lina','lani','laruh','mia','mas','maz','mamat','mamad','masrul','nina','niha','nining','nula','nana','nunu','nifta','nita','niva','nabila','nadia','odi','oni','ojol','onani','pitri',random.randint(0,35),'rosma','riska','rina','rani','ratu','ratna','rifa','riva','rena','reza','rofik','risma','roza','rozak','siska','santi','sari','sarno','susanti','sindi','suci','susana','sinta','sulis','tiwi','tina','tanti','tono','tiara','titin','ulfa','ulfah','ulin','ulfin','unah','udin','usman','usdin','vina','vinka','vani','vatimah','winda','wanti','wani','wadul','xi','zidan','zaenal','zizi','khamdihi','iren','ine','reni','ufik','rohmah','khasna','andi','dwi','muhammad','nur','dewi','tri','dian','sri','putri','eka','sari','aditya','basuki','budi','joni','toni','cahya','riski','farhan','aden','joko','rudi','bambang','supri','wawan','karnawan','akatsuki','wibu','cakep','cantik','+',x,'hitam',random.randint(0,60),'zulki','angga','yayan','dapunta','romi','khamdihi','rohmat','basuki','hamzah','boy','cahyani','sadiyah','salamah','anit'])
+                 tambah = random.choice([random.randint(0,60),'amin','amel','amelia','ais','ananda','agus','aji','adi','andi','andika','abas','aminah','aminatun','bagas','basuki','babas','bayu','badrul','bintang','cindi','cici','cinta','cupita','cupi','dina','diki','difa','dihi','dini','diva','devinta','deni','dila','dilah','fika','fikha','fina','fivi','fatah','fania','fatih','fatun',random.randint(1,20),'32','28','123','24','oficial','cans','ganz','tok','xd','id','gina','galih','gugun','gifah','gans','kholid','kontol','kania','khoerul','hilada','hilmi','himin','lili','lina','lani','laruh','mia','mas','maz','mamat','mamad','masrul','nina','niha','nining','nula','nana','nunu','nifta','nita','niva','nabila','nadia','odi','oni','ojol','onani','pitri',random.randint(0,35),'rosma','riska','rina','rani','ratu','ratna','rifa','riva','rena','reza','rofik','risma','roza','rozak','siska','santi','sari','sarno','susanti','sindi','suci','susana','sinta','sulis','tiwi','tina','tanti','tono','tiara','titin','ulfa','ulfah','ulin','ulfin','unah','udin','usman','usdin','vina','vinka','vani','vatimah','winda','wanti','wani','wadul','xi','zidan','zaenal','zizi','lukman','iren','ine','reni','ufik','rohmah','khasna','andi','dwi','muhammad','nur','dewi','tri','dian','sri','putri','eka','sari','aditya','basuki','budi','joni','toni','cahya','riski','farhan','aden','joko','rudi','bambang','supri','wawan','karnawan','akatsuki','wibu','cakep','cantik','+',x,'hitam',random.randint(0,60),'zulki','angga','yayan','dapunta','romi','lukman','rohmat','basuki','hamzah','boy','cahyani','sadiyah','salamah','anit'])
                  aapaan = f'{i}{tambah}'
                  jembut = '{}{}/{}'.format(aapaan,main,i)
                  if jembut in ID:pass
@@ -393,7 +393,7 @@ class WordlistLogin:
 
     def password(self,link):
         exec = (f'[bold green][[bold white]*[bold green]]. [bold white]OK save in : OK/{indo}.txt\n[bold green][[bold white]*[bold green]]. [bold white]CP save in : CP/{indo}.txt') ; Console(width=50).print(Panel(exec ,style='bold purple'))
-        with khamdihiXV(max_workers=30) as coid:
+        with lukmanXV(max_workers=30) as coid:
              for UserAkun in ID2:
                   uid,nama = UserAkun.split('/')
                   terserah = nama.split(' ')[0]
@@ -521,5 +521,3 @@ if __name__ == "__main__":
 	os.system('git pull')
 	folder()
 	menu()
-
-#memek_lukman#
